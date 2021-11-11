@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e5eff5;
+}
+
+main {
+  width: 636px;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+section {
+  padding: 2.4rem;
+}
+
+#main {
+  background-color: white;
+}
+
+h1 {
+  color: #2ab2af;
+  font-size: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: #98a6bd;
+}
+
+#highlight {
+  color: #c0df34;
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+#small-sections {
+  display: flex;
+}
+
+#subscription {
+  width: 50%;
+  background-color: #2ab2af;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #e5eff5;
+  margin-bottom: 1.2rem;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+#price span {
+  color: white;
+  font-size: 2rem;
+}
+#price small {
+  color: #e5eff5;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  opacity: 70%;
+}
+
+#subscription .description {
+  color: #e5eff5;
+  margin-bottom: 1.4rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem 0rem;
+  background-color: #c0df34;
+  color: white;
+  font-size: 1rem;
+  font-family: "Karla";
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+}
+
+#about-us {
+  width: 50%;
+  background-color: #3fc6c3;
+}
+#about-us p {
+  color: #e5eff5;
+  font-size: 0.9rem;
+  padding-right: 3rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 376px) {
+  main {
+    width: 86%;
+    margin: 4rem 0rem;
+  }
+
+  section {
+    padding: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  #highlight {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  #small-sections {
+    flex-direction: column;
+  }
+
+  #subscription {
+    width: 100%;
+    background-color: #2ab2af;
+  }
+
+  #about-us {
+    width: 100%;
+  }
+  #about-us p {
+    line-height: 1.2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  main {
+    width: 80%;
+    margin: 4rem 0rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  #small-sections {
+    flex-direction: column;
+  }
+
+  #subscription {
+    width: 100%;
+  }
+
+  #about-us {
+    width: 100%;
+  }
+  #about-us p {
+    line-height: 1.2rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  main {
+    width: 90%;
+    border-radius: 0.6rem;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */

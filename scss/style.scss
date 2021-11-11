@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+$primary-cyan: hsl(179, 62%, 43%);
+$primary-bright-yellow: hsl(71, 73%, 54%);
+
+$neutral-light-gray: hsl(204, 43%, 93%);
+$neutral-grayish-blue: hsl(218, 22%, 67%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  background-color: $neutral-light-gray;
+}
+
+main {
+  width: 636px;
+
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+section {
+  padding: 2.4rem;
+}
+
+#main {
+  background-color: white;
+}
+
+h1 {
+  color: $primary-cyan;
+
+  font-size: 1.5rem;
+
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: $neutral-grayish-blue;
+}
+
+#highlight {
+  color: $primary-bright-yellow;
+  font-size: 1.1rem;
+
+  margin-bottom: 0.6rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+#small-sections {
+  display: flex;
+}
+
+#subscription {
+  width: 50%;
+
+  background-color: $primary-cyan;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: $neutral-light-gray;
+
+  margin-bottom: 1.2rem;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 0.3rem;
+
+  span {
+    color: white;
+    font-size: 2rem;
+  }
+
+  small {
+    color: $neutral-light-gray;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+
+    opacity: 70%;
+  }
+}
+
+#subscription {
+  .description {
+    color: $neutral-light-gray;
+    margin-bottom: 1.4rem;
+  }
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem 0rem;
+
+  background-color: $primary-bright-yellow;
+  color: white;
+
+  font-size: 1rem;
+  font-family: "Karla";
+
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+}
+
+#about-us {
+  width: 50%;
+  background-color: hsl(179, 54%, 51%);
+
+  p {
+    color: $neutral-light-gray;
+    font-size: 0.9rem;
+    padding-right: 3rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  main {
+    width: 86%;
+    margin: 4rem 0rem;
+  }
+
+  section {
+    padding: 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+  #highlight {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+
+  #small-sections {
+    flex-direction: column;
+  }
+
+  #subscription {
+    width: 100%;
+
+    background-color: $primary-cyan;
+  }
+
+  #about-us {
+    width: 100%;
+
+    p {
+      line-height: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    width: 80%;
+    margin: 4rem 0rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  #small-sections {
+    flex-direction: column;
+  }
+
+  #subscription {
+    width: 100%;
+  }
+
+  #about-us {
+    width: 100%;
+
+    p {
+      line-height: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 720px){
+    main {
+        width: 90%;
+      
+        border-radius: 0.6rem;
+        overflow: hidden;
+      }
+}

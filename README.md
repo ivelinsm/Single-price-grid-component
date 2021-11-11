@@ -31,7 +31,7 @@ The users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/ivelinsm/Single-price-grid-component)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://ivelinsm.github.io/Single-price-grid-component/)
 
 ## My process
 

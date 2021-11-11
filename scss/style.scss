@@ -124,6 +124,10 @@ button {
   border-radius: 0.4rem;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 #about-us {
   width: 50%;
   background-color: hsl(179, 54%, 51%);
